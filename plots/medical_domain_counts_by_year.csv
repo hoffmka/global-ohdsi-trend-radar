@@ -1,0 +1,195 @@
+﻿YearLabel,Medical Domain,Mentions
+2023,Addiction Medicine,1
+2023,Adrenal Diseases,1
+2023,Allergology,1
+2023,Aortic Diseases,1
+2023,Biomedical Data Integration,1
+2023,Bladder Cancer,1
+2023,COVID-19,6
+2023,Cardiology,2
+2023,Cardiovascular Prevention,1
+2023,Clinical Documentation,2
+2023,Cohort Definition,2
+2023,Colorectal Tissue,1
+2023,Cross-Domain Methods,2
+2023,Cytogenetics,1
+2023,Data Privacy,2
+2023,Dentistry,3
+2023,Diabetes,2
+2023,Diabetic Macular Edema,1
+2023,Diabetic Retinopathy,1
+2023,Drug Interactions,1
+2023,Education,2
+2023,Endocrinology,1
+2023,Endometriosis,1
+2023,Endoscopy,1
+2023,Epilepsy,1
+2023,Evidence Synthesis,2
+2023,Federated Analytics,1
+2023,Frailty,2
+2023,Gastroenterology,2
+2023,Genome-Wide Association Studies,1
+2023,Genomics,4
+2023,Geriatrics,2
+2023,Global Health,1
+2023,Governance,2
+2023,Gynecology,2
+2023,HIV,1
+2023,HIV Prevention,1
+2023,Health Services Research,1
+2023,Heart Failure,1
+2023,Hospital Care,1
+2023,Hypertension,1
+2023,Infectious Diseases,7
+2023,Inflammatory Bowel Disease,1
+2023,Lipidology,1
+2023,Long COVID,2
+2023,Maternal and Infant Health,1
+2023,Medical AI,2
+2023,Medical Research,1
+2023,Medication Regimens,1
+2023,Medication Utilization,2
+2023,Mental Health,3
+2023,Multimorbidity,1
+2023,Multiple Sclerosis,1
+2023,Myositis,1
+2023,NLP,3
+2023,Neonatology,2
+2023,Nephrology,3
+2023,Neurodevelopment,1
+2023,Neurology,1
+2023,Oncology,3
+2023,Ophthalmology,4
+2023,Opioid Use,1
+2023,Opioid Use Disorder,1
+2023,Orthopedics,1
+2023,Osteoporosis,1
+2023,Pathology,2
+2023,Pediatrics,4
+2023,Perinatal Medicine,2
+2023,Pharmacoepidemiology,11
+2023,Pregnancy,5
+2023,Psychiatry,1
+2023,Rare Events,1
+2023,Real-World Evidence,1
+2023,Reproductive Health,1
+2023,Research Ethics,1
+2023,Respiratory Diseases,1
+2023,Rheumatology,1
+2023,Sexual and Gender Minorities,1
+2023,Social Determinants of Health,1
+2023,Synthetic Health Data,1
+2023,Telehealth,1
+2023,Toxicology,1
+2023,Transgender and Gender-Diverse Health,1
+2023,Translational Research,1
+2023,Transplantation,1
+2023,Treatment Patterns,1
+2023,Urologic Oncology,1
+2023,Vascular Medicine,2
+2024,Addiction Medicine,1
+2024,Autoimmune Diseases,3
+2024,COVID-19,7
+2024,Cardiovascular Medicine,10
+2024,Diabetes,9
+2024,Endometriosis,1
+2024,Gastroenterology,1
+2024,Geriatrics,1
+2024,Gynecology,1
+2024,Infectious Diseases,12
+2024,Long COVID,7
+2024,Maternal and Perinatal Health,5
+2024,Mental Health,4
+2024,Oncology,9
+2024,One Health,2
+2024,Ophthalmology,5
+2024,Opioid Use Disorder,1
+2024,Pathology,1
+2024,Pharmacoepidemiology,11
+2024,Psychiatry,4
+2024,Pulmonary Hypertension,1
+2024,Rare Diseases,1
+2024,Rheumatology,4
+2024,Systemic Lupus Erythematosus,1
+2024,Veterinary Medicine,2
+2025,Alzheimer’s Disease,3
+2025,Autoimmune Diseases,2
+2025,Cardiovascular Medicine,8
+2025,Dementia,3
+2025,Dentistry / Oral Health,1
+2025,Diabetes,7
+2025,Genomics,1
+2025,Geriatrics,4
+2025,Hepatology,3
+2025,Infectious Diseases,3
+2025,Maternal and Child Health,3
+2025,Mental Health,6
+2025,Nephrology,3
+2025,Oncology,14
+2025,Ophthalmology,3
+2025,Patient-Reported Outcomes,2
+2025,Pharmacoepidemiology,8
+2025,Precision Medicine,1
+2025,Psychiatry,6
+2025,Pulmonary Hypertension,1
+2025,Pulmonology,1
+2025,Rare Diseases,3
+2025,Rheumatology,2
+2025,Transplant Medicine,1
+2025,Trauma Care,1
+2025,Urology,1
+2026,Alzheimer’s Disease,2
+2026,Anatomy Terminology,1
+2026,Antibiotic Use,1
+2026,Antimicrobial Susceptibility,1
+2026,Cardiovascular Medicine,5
+2026,Clinical Informatics,1
+2026,Clinical Observations,1
+2026,Clinical Research,1
+2026,Clinical Trials & Patient Recruitment,1
+2026,Community Building,1
+2026,Data Curation,1
+2026,Data Integration,1
+2026,Data Quality,3
+2026,Dentistry,2
+2026,Dentistry / Oral Health,1
+2026,Dermatology,1
+2026,Digital Health,1
+2026,Endocrinology,2
+2026,Environmental Exposures,1
+2026,Environmental Health,1
+2026,Exposomics,1
+2026,FHIR,1
+2026,Gastroenterology,2
+2026,Genomics,2
+2026,Geospatial Data,1
+2026,Hepatology,2
+2026,Infectious Diseases,2
+2026,Learning Health Systems,1
+2026,Maternal and Perinatal Health,8
+2026,Medication Data,1
+2026,Microbiology,1
+2026,Neurology,1
+2026,Nursing,1
+2026,Oncology,12
+2026,Ophthalmology,6
+2026,Oral Health,1
+2026,Patient-Generated Health Data,1
+2026,Patient-Reported Outcomes,1
+2026,Pediatrics,1
+2026,Pharmacoepidemiology,14
+2026,Pulmonology,1
+2026,Quality of Life,1
+2026,Rare Diseases,1
+2026,Registry Data,1
+2026,Rehabilitation,1
+2026,Research Networks,1
+2026,Sarcoidosis,1
+2026,Stroke,1
+2026,Synthetic Data,1
+2026,Translational Medicine,1
+2026,Trauma Care,1
+2026,Urology,1
+2026,Visual Acuity,1
+2026,Wearables,1
+2026,Women’s Health,1
