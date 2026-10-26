@@ -77,7 +77,13 @@ The vertical reference at OR = 1 represents no temporal association in the model
 
 ![Temporal Trends by thematic cluster](statistical_results/plots/02_forest_plot_themes.png)
 
+### 2. Significant Thematic Trends
 
+A line chart showing annual prevalence for thematic clusters with statistically significant upward trends after FDR correction. It helps compare the timing and magnitude of changes in the representation of these themes between 2023 and 2026.
+
+**Figure 2. Temporal Trends in FDR-significant thematic cluster**
+
+![Temporal Trends in FDR-significant thematic cluster](statistical_results/plots/01_significant_theme_trends.png)
 
 ### 3. Forest Plot of Medical-Domain Trends
 
