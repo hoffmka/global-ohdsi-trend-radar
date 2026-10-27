@@ -47,7 +47,7 @@ year,label,n_contributions,n_with_label,percentage
 2025,Specialized & Multimodal Data,142,15,10.56338028169014
 2025,Statistical Methods & Causal Inference,142,16,11.267605633802816
 2025,Terminologies & Semantic Mapping,142,13,9.154929577464788
-2026,"AI, LLMs & Natural Language Processing",162,38,23.45679012345679
+2026,"AI, LLMs & Natural Language Processing",162,43,26.54320987654321
 2026,Clinical Applications & Real-World Evidence,162,46,28.395061728395063
 2026,Community & Network Development,162,7,4.320987654320987
 2026,Data Infrastructure & Scalability,162,1,0.6172839506172839
@@ -55,11 +55,11 @@ year,label,n_contributions,n_with_label,percentage
 2026,Data Standardization & OMOP CDM,162,73,45.06172839506173
 2026,Federated Analytics & Network Studies,162,15,9.25925925925926
 2026,Governance & Regulatory Requirements,162,9,5.555555555555555
-2026,Interoperability & Data Integration,162,10,6.172839506172839
-2026,Phenotyping & Cohort Definition,162,22,13.580246913580247
+2026,Interoperability & Data Integration,162,13,8.024691358024691
+2026,Phenotyping & Cohort Definition,162,24,14.814814814814815
 2026,Prediction & Machine Learning,162,6,3.7037037037037037
 2026,Privacy & Secure Computing,162,1,0.6172839506172839
-2026,"Software, Tools & Research Workflows",162,16,9.876543209876543
-2026,Specialized & Multimodal Data,162,15,9.25925925925926
-2026,Statistical Methods & Causal Inference,162,7,4.320987654320987
-2026,Terminologies & Semantic Mapping,162,25,15.432098765432098
+2026,"Software, Tools & Research Workflows",162,33,20.37037037037037
+2026,Specialized & Multimodal Data,162,16,9.876543209876543
+2026,Statistical Methods & Causal Inference,162,5,3.0864197530864197
+2026,Terminologies & Semantic Mapping,162,29,17.901234567901234
