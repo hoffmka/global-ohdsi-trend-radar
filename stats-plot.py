@@ -16,7 +16,7 @@ PLOT_DIR.mkdir(parents=True, exist_ok=True)
 
 YEARS = [2023, 2024, 2025, 2026]
 TOP_N_THEMES = 20
-TOP_N_DOMAINS = 25
+TOP_N_DOMAINS = 20
 
 
 # ============================================================
@@ -254,7 +254,7 @@ prevalence_heatmap(
 
 prevalence_heatmap(
     domain_prev,
-    "Medical domain prevalence by year",
+    "TOP 20 Medical domain prevalence by year",
     "05_heatmap_medical_domains",
     top_n=TOP_N_DOMAINS,
 )

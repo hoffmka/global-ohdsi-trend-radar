@@ -11,13 +11,12 @@ year,label,n_contributions,n_with_label,percentage
 2023,Cardiology,161,2,1.2422360248447204
 2023,Cardiovascular Medicine,161,0,0.0
 2023,Cardiovascular Prevention,161,1,0.6211180124223602
-2023,Clinical Documentation,161,2,1.2422360248447204
-2023,Cohort Definition,161,2,1.2422360248447204
+2023,Clinical Documentation,161,1,0.6211180124223602
 2023,Colorectal Tissue,161,1,0.6211180124223602
 2023,Covid-19,161,0,0.0
-2023,Cross-Domain Methods,161,2,1.2422360248447204
+2023,Cross-Domain Methods,161,1,0.6211180124223602
 2023,Cytogenetics,161,1,0.6211180124223602
-2023,Data Privacy,161,2,1.2422360248447204
+2023,Data Privacy,161,1,0.6211180124223602
 2023,Dementia,161,0,0.0
 2023,Dentistry,161,3,1.8633540372670807
 2023,Dentistry / Oral Health,161,0,0.0
@@ -41,7 +40,7 @@ year,label,n_contributions,n_with_label,percentage
 2023,Genomics,161,4,2.484472049689441
 2023,Geriatrics,161,2,1.2422360248447204
 2023,Global Health,161,1,0.6211180124223602
-2023,Governance,161,2,1.2422360248447204
+2023,Governance,161,1,0.6211180124223602
 2023,Gynecology,161,2,1.2422360248447204
 2023,HIV,161,1,0.6211180124223602
 2023,HIV Prevention,161,1,0.6211180124223602
@@ -58,7 +57,7 @@ year,label,n_contributions,n_with_label,percentage
 2023,Maternal and Child Health,161,0,0.0
 2023,Maternal and Infant Health,161,1,0.6211180124223602
 2023,Maternal and Perinatal Health,161,0,0.0
-2023,Medical AI,161,2,1.2422360248447204
+2023,Medical AI,161,1,0.6211180124223602
 2023,Medical Research,161,1,0.6211180124223602
 2023,Medication Regimens,161,1,0.6211180124223602
 2023,Medication Utilization,161,2,1.2422360248447204
@@ -68,7 +67,6 @@ year,label,n_contributions,n_with_label,percentage
 2023,Multimorbidity,161,1,0.6211180124223602
 2023,Multiple Sclerosis,161,1,0.6211180124223602
 2023,Myositis,161,1,0.6211180124223602
-2023,NLP,161,3,1.8633540372670807
 2023,Neonatology,161,2,1.2422360248447204
 2023,Nephrology,161,3,1.8633540372670807
 2023,Neurodevelopment,161,1,0.6211180124223602
@@ -85,7 +83,7 @@ year,label,n_contributions,n_with_label,percentage
 2023,Patient-Reported Outcomes,161,0,0.0
 2023,Pediatrics,161,4,2.484472049689441
 2023,Perinatal Medicine,161,2,1.2422360248447204
-2023,Pharmacoepidemiology,161,11,6.832298136645963
+2023,Pharmacoepidemiology,161,12,7.453416149068323
 2023,Precision Medicine,161,0,0.0
 2023,Pregnancy,161,5,3.1055900621118013
 2023,Psychiatry,161,1,0.6211180124223602
@@ -131,7 +129,6 @@ year,label,n_contributions,n_with_label,percentage
 2024,Cardiovascular Medicine,136,10,7.352941176470588
 2024,Cardiovascular Prevention,136,0,0.0
 2024,Clinical Documentation,136,0,0.0
-2024,Cohort Definition,136,0,0.0
 2024,Colorectal Tissue,136,0,0.0
 2024,Covid-19,136,0,0.0
 2024,Cross-Domain Methods,136,0,0.0
@@ -187,7 +184,6 @@ year,label,n_contributions,n_with_label,percentage
 2024,Multimorbidity,136,0,0.0
 2024,Multiple Sclerosis,136,0,0.0
 2024,Myositis,136,0,0.0
-2024,NLP,136,0,0.0
 2024,Neonatology,136,0,0.0
 2024,Nephrology,136,0,0.0
 2024,Neurodevelopment,136,0,0.0
@@ -250,7 +246,6 @@ year,label,n_contributions,n_with_label,percentage
 2025,Cardiovascular Medicine,142,8,5.633802816901408
 2025,Cardiovascular Prevention,142,0,0.0
 2025,Clinical Documentation,142,0,0.0
-2025,Cohort Definition,142,0,0.0
 2025,Colorectal Tissue,142,0,0.0
 2025,Covid-19,142,0,0.0
 2025,Cross-Domain Methods,142,0,0.0
@@ -306,7 +301,6 @@ year,label,n_contributions,n_with_label,percentage
 2025,Multimorbidity,142,0,0.0
 2025,Multiple Sclerosis,142,0,0.0
 2025,Myositis,142,0,0.0
-2025,NLP,142,0,0.0
 2025,Neonatology,142,0,0.0
 2025,Nephrology,142,3,2.112676056338028
 2025,Neurodevelopment,142,0,0.0
@@ -369,7 +363,6 @@ year,label,n_contributions,n_with_label,percentage
 2026,Cardiovascular Medicine,162,5,3.0864197530864197
 2026,Cardiovascular Prevention,162,0,0.0
 2026,Clinical Documentation,162,0,0.0
-2026,Cohort Definition,162,0,0.0
 2026,Colorectal Tissue,162,0,0.0
 2026,Covid-19,162,1,0.6172839506172839
 2026,Cross-Domain Methods,162,0,0.0
@@ -425,7 +418,6 @@ year,label,n_contributions,n_with_label,percentage
 2026,Multimorbidity,162,0,0.0
 2026,Multiple Sclerosis,162,0,0.0
 2026,Myositis,162,0,0.0
-2026,NLP,162,0,0.0
 2026,Neonatology,162,0,0.0
 2026,Nephrology,162,0,0.0
 2026,Neurodevelopment,162,0,0.0
