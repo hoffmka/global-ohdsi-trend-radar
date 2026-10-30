@@ -6,7 +6,6 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.multitest import multipletests
 
-
 # --------------------------------------------------
 # Configuration
 # --------------------------------------------------

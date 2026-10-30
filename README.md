@@ -10,7 +10,14 @@ The analysis is intended to provide an exploratory overview of community activit
 
 ## Dataset
 
-The evidence list was compiled from publicly available OHDSI materials, including contributions to the OHDSI Global Symposium and the Collaborator Showcase. Contributions from 2023 to 2026 were consolidated into the master dataset, `ohdsi_evidence_master.xlsx`, which served as the basis for the subsequent analysis.
+The evidence list was compiled from publicly available OHDSI materials, including contributions to the OHDSI Global Symposium and the Collaborator Showcase. 
+
+https://www.ohdsi.org/2023-collaborator-showcase/
+https://www.ohdsi.org/2024-collaborator-showcase/
+https://www.ohdsi.org/2025-global-collaborator-showcase/
+https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vQMCFQXYHkPrbVrLojEo5NRQnHAUz6C9sfQ_DtvdKjXvJJW4l-A-N7yI3Y6e7WyWeB-KUEpnWl61-a6/pubhtml?pli=1&urp=gmail_link
+
+Contributions from 2023 to 2026 were consolidated into the master dataset, `ohdsi_evidence_master.xlsx`, which served as the basis for the subsequent analysis.
 
 The dataset contains 601 contributions:
 | Year | Number of Contribution |
