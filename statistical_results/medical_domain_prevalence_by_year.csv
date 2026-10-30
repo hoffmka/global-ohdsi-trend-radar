@@ -1,469 +1,85 @@
 year,label,n_contributions,n_with_label,percentage
-2023,Addiction Medicine,161,1,0.6211180124223602
-2023,Adrenal Diseases,161,1,0.6211180124223602
-2023,Allergology,161,1,0.6211180124223602
-2023,Alzheimer’s Disease,161,0,0.0
-2023,Aortic Diseases,161,1,0.6211180124223602
-2023,Autoimmune Diseases,161,0,0.0
-2023,Biomedical Data Integration,161,1,0.6211180124223602
-2023,Bladder Cancer,161,1,0.6211180124223602
-2023,COVID-19,161,6,3.7267080745341614
-2023,Cardiology,161,2,1.2422360248447204
-2023,Cardiovascular Medicine,161,0,0.0
-2023,Cardiovascular Prevention,161,1,0.6211180124223602
-2023,Clinical Documentation,161,1,0.6211180124223602
-2023,Colorectal Tissue,161,1,0.6211180124223602
-2023,Covid-19,161,0,0.0
-2023,Cross-Domain Methods,161,1,0.6211180124223602
-2023,Cytogenetics,161,1,0.6211180124223602
-2023,Data Privacy,161,1,0.6211180124223602
-2023,Dementia,161,0,0.0
-2023,Dentistry,161,3,1.8633540372670807
-2023,Dentistry / Oral Health,161,0,0.0
-2023,Dermatology,161,0,0.0
-2023,Diabetes,161,2,1.2422360248447204
-2023,Diabetic Macular Edema,161,1,0.6211180124223602
-2023,Diabetic Retinopathy,161,1,0.6211180124223602
-2023,Drug Interactions,161,1,0.6211180124223602
-2023,Education,161,2,1.2422360248447204
-2023,Endocrinology,161,1,0.6211180124223602
-2023,Endometriosis,161,1,0.6211180124223602
-2023,Endoscopy,161,1,0.6211180124223602
-2023,Environmental Health,161,0,0.0
-2023,Epilepsy,161,1,0.6211180124223602
-2023,Evidence Synthesis,161,2,1.2422360248447204
-2023,Exposomics,161,0,0.0
-2023,Federated Analytics,161,1,0.6211180124223602
-2023,Frailty,161,2,1.2422360248447204
-2023,Gastroenterology,161,2,1.2422360248447204
-2023,Genome-Wide Association Studies,161,1,0.6211180124223602
-2023,Genomics,161,4,2.484472049689441
-2023,Geriatrics,161,2,1.2422360248447204
-2023,Global Health,161,1,0.6211180124223602
-2023,Governance,161,1,0.6211180124223602
-2023,Gynecology,161,2,1.2422360248447204
-2023,HIV,161,1,0.6211180124223602
-2023,HIV Prevention,161,1,0.6211180124223602
-2023,Health Services Research,161,1,0.6211180124223602
-2023,Heart Failure,161,1,0.6211180124223602
-2023,Hepatology,161,0,0.0
-2023,Hospital Care,161,1,0.6211180124223602
-2023,Hypertension,161,1,0.6211180124223602
-2023,Infectious Diseases,161,7,4.3478260869565215
-2023,Inflammatory Bowel Disease,161,1,0.6211180124223602
-2023,Internal Medicine,161,0,0.0
-2023,Lipidology,161,1,0.6211180124223602
-2023,Long COVID,161,2,1.2422360248447204
-2023,Maternal and Child Health,161,0,0.0
-2023,Maternal and Infant Health,161,1,0.6211180124223602
-2023,Maternal and Perinatal Health,161,0,0.0
-2023,Medical AI,161,1,0.6211180124223602
-2023,Medical Research,161,1,0.6211180124223602
-2023,Medication Regimens,161,1,0.6211180124223602
-2023,Medication Utilization,161,2,1.2422360248447204
-2023,Mental Health,161,3,1.8633540372670807
-2023,Microbiology,161,0,0.0
-2023,Military Health Services Research,161,0,0.0
-2023,Multimorbidity,161,1,0.6211180124223602
-2023,Multiple Sclerosis,161,1,0.6211180124223602
-2023,Myositis,161,1,0.6211180124223602
-2023,Neonatology,161,2,1.2422360248447204
-2023,Nephrology,161,3,1.8633540372670807
-2023,Neurodevelopment,161,1,0.6211180124223602
-2023,Neurology,161,1,0.6211180124223602
-2023,Oncology,161,3,1.8633540372670807
-2023,One Health,161,0,0.0
-2023,Ophthalmology,161,4,2.484472049689441
-2023,Opioid Use,161,1,0.6211180124223602
-2023,Opioid Use Disorder,161,1,0.6211180124223602
-2023,Oral Health,161,0,0.0
-2023,Orthopedics,161,1,0.6211180124223602
-2023,Osteoporosis,161,1,0.6211180124223602
-2023,Pathology,161,2,1.2422360248447204
-2023,Patient-Reported Outcomes,161,0,0.0
-2023,Pediatrics,161,4,2.484472049689441
-2023,Perinatal Medicine,161,2,1.2422360248447204
-2023,Pharmacoepidemiology,161,12,7.453416149068323
-2023,Precision Medicine,161,0,0.0
-2023,Pregnancy,161,5,3.1055900621118013
-2023,Psychiatry,161,1,0.6211180124223602
-2023,Pulmonary Hypertension,161,0,0.0
-2023,Pulmonology,161,0,0.0
-2023,Rare Diseases,161,0,0.0
-2023,Rare Events,161,1,0.6211180124223602
-2023,Real-World Evidence,161,1,0.6211180124223602
-2023,Reproductive Health,161,1,0.6211180124223602
-2023,Research Ethics,161,1,0.6211180124223602
-2023,Respiratory Diseases,161,1,0.6211180124223602
-2023,Rheumatology,161,1,0.6211180124223602
-2023,Sexual and Gender Minorities,161,1,0.6211180124223602
-2023,Social Determinants of Health,161,1,0.6211180124223602
-2023,Stroke,161,0,0.0
-2023,Synthetic Health Data,161,1,0.6211180124223602
-2023,Systemic Lupus Erythematosus,161,0,0.0
-2023,Telehealth,161,1,0.6211180124223602
-2023,Toxicology,161,1,0.6211180124223602
-2023,Transgender and Gender-Diverse Health,161,1,0.6211180124223602
-2023,Translational Research,161,1,0.6211180124223602
-2023,Transplant Medicine,161,0,0.0
-2023,Transplantation,161,1,0.6211180124223602
-2023,Trauma,161,0,0.0
-2023,Trauma Care,161,0,0.0
-2023,Treatment Patterns,161,1,0.6211180124223602
-2023,Urologic Oncology,161,1,0.6211180124223602
-2023,Urology,161,0,0.0
-2023,Vascular Medicine,161,2,1.2422360248447204
-2023,Veterinary Medicine,161,0,0.0
-2023,Women's Health,161,0,0.0
-2023,Women’s Health,161,0,0.0
-2024,Addiction Medicine,136,1,0.7352941176470589
-2024,Adrenal Diseases,136,0,0.0
-2024,Allergology,136,0,0.0
-2024,Alzheimer’s Disease,136,0,0.0
-2024,Aortic Diseases,136,0,0.0
-2024,Autoimmune Diseases,136,3,2.2058823529411766
-2024,Biomedical Data Integration,136,0,0.0
-2024,Bladder Cancer,136,0,0.0
-2024,COVID-19,136,7,5.147058823529412
-2024,Cardiology,136,0,0.0
-2024,Cardiovascular Medicine,136,10,7.352941176470588
-2024,Cardiovascular Prevention,136,0,0.0
-2024,Clinical Documentation,136,0,0.0
-2024,Colorectal Tissue,136,0,0.0
-2024,Covid-19,136,0,0.0
-2024,Cross-Domain Methods,136,0,0.0
-2024,Cytogenetics,136,0,0.0
-2024,Data Privacy,136,0,0.0
-2024,Dementia,136,0,0.0
-2024,Dentistry,136,0,0.0
-2024,Dentistry / Oral Health,136,0,0.0
-2024,Dermatology,136,0,0.0
-2024,Diabetes,136,9,6.617647058823529
-2024,Diabetic Macular Edema,136,0,0.0
-2024,Diabetic Retinopathy,136,0,0.0
-2024,Drug Interactions,136,0,0.0
-2024,Education,136,0,0.0
-2024,Endocrinology,136,0,0.0
-2024,Endometriosis,136,1,0.7352941176470589
-2024,Endoscopy,136,0,0.0
-2024,Environmental Health,136,0,0.0
-2024,Epilepsy,136,0,0.0
-2024,Evidence Synthesis,136,0,0.0
-2024,Exposomics,136,0,0.0
-2024,Federated Analytics,136,0,0.0
-2024,Frailty,136,0,0.0
-2024,Gastroenterology,136,1,0.7352941176470589
-2024,Genome-Wide Association Studies,136,0,0.0
-2024,Genomics,136,0,0.0
-2024,Geriatrics,136,1,0.7352941176470589
-2024,Global Health,136,0,0.0
-2024,Governance,136,0,0.0
-2024,Gynecology,136,1,0.7352941176470589
-2024,HIV,136,0,0.0
-2024,HIV Prevention,136,0,0.0
-2024,Health Services Research,136,0,0.0
-2024,Heart Failure,136,0,0.0
-2024,Hepatology,136,0,0.0
-2024,Hospital Care,136,0,0.0
-2024,Hypertension,136,0,0.0
-2024,Infectious Diseases,136,12,8.823529411764707
-2024,Inflammatory Bowel Disease,136,0,0.0
-2024,Internal Medicine,136,0,0.0
-2024,Lipidology,136,0,0.0
-2024,Long COVID,136,7,5.147058823529412
-2024,Maternal and Child Health,136,0,0.0
-2024,Maternal and Infant Health,136,0,0.0
-2024,Maternal and Perinatal Health,136,5,3.676470588235294
-2024,Medical AI,136,0,0.0
-2024,Medical Research,136,0,0.0
-2024,Medication Regimens,136,0,0.0
-2024,Medication Utilization,136,0,0.0
-2024,Mental Health,136,4,2.9411764705882355
-2024,Microbiology,136,0,0.0
-2024,Military Health Services Research,136,0,0.0
-2024,Multimorbidity,136,0,0.0
-2024,Multiple Sclerosis,136,0,0.0
-2024,Myositis,136,0,0.0
-2024,Neonatology,136,0,0.0
-2024,Nephrology,136,0,0.0
-2024,Neurodevelopment,136,0,0.0
-2024,Neurology,136,0,0.0
-2024,Oncology,136,9,6.617647058823529
-2024,One Health,136,2,1.4705882352941178
-2024,Ophthalmology,136,5,3.676470588235294
-2024,Opioid Use,136,0,0.0
+2023,Medical Domain A,161,3,1.8633540372670807
+2023,Medical Domain B,161,4,2.484472049689441
+2023,Medical Domain C,161,1,0.6211180124223602
+2023,Medical Domain D,161,7,4.3478260869565215
+2023,Medical Domain E,161,6,3.7267080745341614
+2023,Medical Domain F,161,12,7.453416149068323
+2023,Medical Domain G,161,1,0.6211180124223602
+2023,Medical Domain H,161,4,2.484472049689441
+2023,Medical Domain I,161,2,1.2422360248447204
+2023,Medical Domain J,161,2,1.2422360248447204
+2023,Medical Domain N,161,4,2.484472049689441
+2023,Medical Domain O,161,3,1.8633540372670807
+2023,Medical Domain P,161,0,0.0
+2023,Medical Domain Q,161,2,1.2422360248447204
+2023,Medical Domain R,161,3,1.8633540372670807
+2023,Medical Domain S,161,0,0.0
+2023,Medical Domain T,161,0,0.0
+2023,Medical Domain U,161,2,1.2422360248447204
+2023,Medical Domain V,161,4,2.484472049689441
+2023,Medical Domain X,161,0,0.0
+2023,Opioid Use Disorder,161,0,0.0
+2024,Medical Domain A,136,9,6.617647058823529
+2024,Medical Domain B,136,0,0.0
+2024,Medical Domain C,136,0,0.0
+2024,Medical Domain D,136,12,8.823529411764707
+2024,Medical Domain E,136,7,5.147058823529412
+2024,Medical Domain F,136,11,8.088235294117647
+2024,Medical Domain G,136,4,2.9411764705882355
+2024,Medical Domain H,136,5,3.676470588235294
+2024,Medical Domain I,136,7,5.147058823529412
+2024,Medical Domain J,136,9,6.617647058823529
+2024,Medical Domain N,136,0,0.0
+2024,Medical Domain O,136,0,0.0
+2024,Medical Domain P,136,3,2.2058823529411766
+2024,Medical Domain Q,136,0,0.0
+2024,Medical Domain R,136,4,2.9411764705882355
+2024,Medical Domain S,136,10,7.352941176470588
+2024,Medical Domain T,136,5,3.676470588235294
+2024,Medical Domain U,136,2,1.4705882352941178
+2024,Medical Domain V,136,4,2.9411764705882355
+2024,Medical Domain X,136,0,0.0
 2024,Opioid Use Disorder,136,1,0.7352941176470589
-2024,Oral Health,136,0,0.0
-2024,Orthopedics,136,0,0.0
-2024,Osteoporosis,136,0,0.0
-2024,Pathology,136,1,0.7352941176470589
-2024,Patient-Reported Outcomes,136,0,0.0
-2024,Pediatrics,136,0,0.0
-2024,Perinatal Medicine,136,0,0.0
-2024,Pharmacoepidemiology,136,11,8.088235294117647
-2024,Precision Medicine,136,0,0.0
-2024,Pregnancy,136,0,0.0
-2024,Psychiatry,136,4,2.9411764705882355
-2024,Pulmonary Hypertension,136,1,0.7352941176470589
-2024,Pulmonology,136,0,0.0
-2024,Rare Diseases,136,1,0.7352941176470589
-2024,Rare Events,136,0,0.0
-2024,Real-World Evidence,136,0,0.0
-2024,Reproductive Health,136,0,0.0
-2024,Research Ethics,136,0,0.0
-2024,Respiratory Diseases,136,0,0.0
-2024,Rheumatology,136,4,2.9411764705882355
-2024,Sexual and Gender Minorities,136,0,0.0
-2024,Social Determinants of Health,136,0,0.0
-2024,Stroke,136,0,0.0
-2024,Synthetic Health Data,136,0,0.0
-2024,Systemic Lupus Erythematosus,136,1,0.7352941176470589
-2024,Telehealth,136,0,0.0
-2024,Toxicology,136,0,0.0
-2024,Transgender and Gender-Diverse Health,136,0,0.0
-2024,Translational Research,136,0,0.0
-2024,Transplant Medicine,136,0,0.0
-2024,Transplantation,136,0,0.0
-2024,Trauma,136,0,0.0
-2024,Trauma Care,136,0,0.0
-2024,Treatment Patterns,136,0,0.0
-2024,Urologic Oncology,136,0,0.0
-2024,Urology,136,0,0.0
-2024,Vascular Medicine,136,0,0.0
-2024,Veterinary Medicine,136,2,1.4705882352941178
-2024,Women's Health,136,0,0.0
-2024,Women’s Health,136,0,0.0
-2025,Addiction Medicine,142,0,0.0
-2025,Adrenal Diseases,142,0,0.0
-2025,Allergology,142,0,0.0
-2025,Alzheimer’s Disease,142,3,2.112676056338028
-2025,Aortic Diseases,142,0,0.0
-2025,Autoimmune Diseases,142,2,1.408450704225352
-2025,Biomedical Data Integration,142,0,0.0
-2025,Bladder Cancer,142,0,0.0
-2025,COVID-19,142,0,0.0
-2025,Cardiology,142,0,0.0
-2025,Cardiovascular Medicine,142,8,5.633802816901408
-2025,Cardiovascular Prevention,142,0,0.0
-2025,Clinical Documentation,142,0,0.0
-2025,Colorectal Tissue,142,0,0.0
-2025,Covid-19,142,0,0.0
-2025,Cross-Domain Methods,142,0,0.0
-2025,Cytogenetics,142,0,0.0
-2025,Data Privacy,142,0,0.0
-2025,Dementia,142,3,2.112676056338028
-2025,Dentistry,142,0,0.0
-2025,Dentistry / Oral Health,142,1,0.704225352112676
-2025,Dermatology,142,0,0.0
-2025,Diabetes,142,7,4.929577464788732
-2025,Diabetic Macular Edema,142,0,0.0
-2025,Diabetic Retinopathy,142,0,0.0
-2025,Drug Interactions,142,0,0.0
-2025,Education,142,0,0.0
-2025,Endocrinology,142,0,0.0
-2025,Endometriosis,142,0,0.0
-2025,Endoscopy,142,0,0.0
-2025,Environmental Health,142,0,0.0
-2025,Epilepsy,142,0,0.0
-2025,Evidence Synthesis,142,0,0.0
-2025,Exposomics,142,0,0.0
-2025,Federated Analytics,142,0,0.0
-2025,Frailty,142,0,0.0
-2025,Gastroenterology,142,0,0.0
-2025,Genome-Wide Association Studies,142,0,0.0
-2025,Genomics,142,1,0.704225352112676
-2025,Geriatrics,142,4,2.816901408450704
-2025,Global Health,142,0,0.0
-2025,Governance,142,0,0.0
-2025,Gynecology,142,0,0.0
-2025,HIV,142,0,0.0
-2025,HIV Prevention,142,0,0.0
-2025,Health Services Research,142,0,0.0
-2025,Heart Failure,142,0,0.0
-2025,Hepatology,142,3,2.112676056338028
-2025,Hospital Care,142,0,0.0
-2025,Hypertension,142,0,0.0
-2025,Infectious Diseases,142,3,2.112676056338028
-2025,Inflammatory Bowel Disease,142,0,0.0
-2025,Internal Medicine,142,0,0.0
-2025,Lipidology,142,0,0.0
-2025,Long COVID,142,0,0.0
-2025,Maternal and Child Health,142,3,2.112676056338028
-2025,Maternal and Infant Health,142,0,0.0
-2025,Maternal and Perinatal Health,142,0,0.0
-2025,Medical AI,142,0,0.0
-2025,Medical Research,142,0,0.0
-2025,Medication Regimens,142,0,0.0
-2025,Medication Utilization,142,0,0.0
-2025,Mental Health,142,6,4.225352112676056
-2025,Microbiology,142,0,0.0
-2025,Military Health Services Research,142,0,0.0
-2025,Multimorbidity,142,0,0.0
-2025,Multiple Sclerosis,142,0,0.0
-2025,Myositis,142,0,0.0
-2025,Neonatology,142,0,0.0
-2025,Nephrology,142,3,2.112676056338028
-2025,Neurodevelopment,142,0,0.0
-2025,Neurology,142,0,0.0
-2025,Oncology,142,13,9.154929577464788
-2025,One Health,142,0,0.0
-2025,Ophthalmology,142,3,2.112676056338028
-2025,Opioid Use,142,0,0.0
+2025,Medical Domain A,142,13,9.154929577464788
+2025,Medical Domain B,142,1,0.704225352112676
+2025,Medical Domain C,142,0,0.0
+2025,Medical Domain D,142,3,2.112676056338028
+2025,Medical Domain E,142,0,0.0
+2025,Medical Domain F,142,8,5.633802816901408
+2025,Medical Domain G,142,6,4.225352112676056
+2025,Medical Domain H,142,3,2.112676056338028
+2025,Medical Domain I,142,0,0.0
+2025,Medical Domain J,142,7,4.929577464788732
+2025,Medical Domain N,142,0,0.0
+2025,Medical Domain O,142,1,0.704225352112676
+2025,Medical Domain P,142,2,1.408450704225352
+2025,Medical Domain Q,142,0,0.0
+2025,Medical Domain R,142,6,4.225352112676056
+2025,Medical Domain S,142,8,5.633802816901408
+2025,Medical Domain T,142,0,0.0
+2025,Medical Domain U,142,4,2.816901408450704
+2025,Medical Domain V,142,5,3.5211267605633805
+2025,Medical Domain X,142,3,2.112676056338028
 2025,Opioid Use Disorder,142,0,0.0
-2025,Oral Health,142,0,0.0
-2025,Orthopedics,142,0,0.0
-2025,Osteoporosis,142,0,0.0
-2025,Pathology,142,0,0.0
-2025,Patient-Reported Outcomes,142,2,1.408450704225352
-2025,Pediatrics,142,0,0.0
-2025,Perinatal Medicine,142,0,0.0
-2025,Pharmacoepidemiology,142,8,5.633802816901408
-2025,Precision Medicine,142,1,0.704225352112676
-2025,Pregnancy,142,0,0.0
-2025,Psychiatry,142,6,4.225352112676056
-2025,Pulmonary Hypertension,142,1,0.704225352112676
-2025,Pulmonology,142,1,0.704225352112676
-2025,Rare Diseases,142,3,2.112676056338028
-2025,Rare Events,142,0,0.0
-2025,Real-World Evidence,142,0,0.0
-2025,Reproductive Health,142,0,0.0
-2025,Research Ethics,142,0,0.0
-2025,Respiratory Diseases,142,0,0.0
-2025,Rheumatology,142,2,1.408450704225352
-2025,Sexual and Gender Minorities,142,0,0.0
-2025,Social Determinants of Health,142,0,0.0
-2025,Stroke,142,0,0.0
-2025,Synthetic Health Data,142,0,0.0
-2025,Systemic Lupus Erythematosus,142,0,0.0
-2025,Telehealth,142,0,0.0
-2025,Toxicology,142,0,0.0
-2025,Transgender and Gender-Diverse Health,142,0,0.0
-2025,Translational Research,142,0,0.0
-2025,Transplant Medicine,142,1,0.704225352112676
-2025,Transplantation,142,0,0.0
-2025,Trauma,142,0,0.0
-2025,Trauma Care,142,1,0.704225352112676
-2025,Treatment Patterns,142,0,0.0
-2025,Urologic Oncology,142,0,0.0
-2025,Urology,142,1,0.704225352112676
-2025,Vascular Medicine,142,0,0.0
-2025,Veterinary Medicine,142,0,0.0
-2025,Women's Health,142,0,0.0
-2025,Women’s Health,142,0,0.0
-2026,Addiction Medicine,162,0,0.0
-2026,Adrenal Diseases,162,0,0.0
-2026,Allergology,162,0,0.0
-2026,Alzheimer’s Disease,162,2,1.2345679012345678
-2026,Aortic Diseases,162,0,0.0
-2026,Autoimmune Diseases,162,0,0.0
-2026,Biomedical Data Integration,162,0,0.0
-2026,Bladder Cancer,162,0,0.0
-2026,COVID-19,162,0,0.0
-2026,Cardiology,162,0,0.0
-2026,Cardiovascular Medicine,162,5,3.0864197530864197
-2026,Cardiovascular Prevention,162,0,0.0
-2026,Clinical Documentation,162,0,0.0
-2026,Colorectal Tissue,162,0,0.0
-2026,Covid-19,162,1,0.6172839506172839
-2026,Cross-Domain Methods,162,0,0.0
-2026,Cytogenetics,162,0,0.0
-2026,Data Privacy,162,0,0.0
-2026,Dementia,162,0,0.0
-2026,Dentistry,162,3,1.8518518518518519
-2026,Dentistry / Oral Health,162,0,0.0
-2026,Dermatology,162,1,0.6172839506172839
-2026,Diabetes,162,2,1.2345679012345678
-2026,Diabetic Macular Edema,162,0,0.0
-2026,Diabetic Retinopathy,162,0,0.0
-2026,Drug Interactions,162,0,0.0
-2026,Education,162,0,0.0
-2026,Endocrinology,162,2,1.2345679012345678
-2026,Endometriosis,162,0,0.0
-2026,Endoscopy,162,0,0.0
-2026,Environmental Health,162,3,1.8518518518518519
-2026,Epilepsy,162,0,0.0
-2026,Evidence Synthesis,162,0,0.0
-2026,Exposomics,162,1,0.6172839506172839
-2026,Federated Analytics,162,0,0.0
-2026,Frailty,162,0,0.0
-2026,Gastroenterology,162,2,1.2345679012345678
-2026,Genome-Wide Association Studies,162,0,0.0
-2026,Genomics,162,2,1.2345679012345678
-2026,Geriatrics,162,0,0.0
-2026,Global Health,162,0,0.0
-2026,Governance,162,0,0.0
-2026,Gynecology,162,0,0.0
-2026,HIV,162,0,0.0
-2026,HIV Prevention,162,0,0.0
-2026,Health Services Research,162,0,0.0
-2026,Heart Failure,162,0,0.0
-2026,Hepatology,162,2,1.2345679012345678
-2026,Hospital Care,162,0,0.0
-2026,Hypertension,162,0,0.0
-2026,Infectious Diseases,162,1,0.6172839506172839
-2026,Inflammatory Bowel Disease,162,0,0.0
-2026,Internal Medicine,162,1,0.6172839506172839
-2026,Lipidology,162,0,0.0
-2026,Long COVID,162,0,0.0
-2026,Maternal and Child Health,162,0,0.0
-2026,Maternal and Infant Health,162,0,0.0
-2026,Maternal and Perinatal Health,162,7,4.320987654320987
-2026,Medical AI,162,0,0.0
-2026,Medical Research,162,0,0.0
-2026,Medication Regimens,162,0,0.0
-2026,Medication Utilization,162,0,0.0
-2026,Mental Health,162,0,0.0
-2026,Microbiology,162,1,0.6172839506172839
-2026,Military Health Services Research,162,1,0.6172839506172839
-2026,Multimorbidity,162,0,0.0
-2026,Multiple Sclerosis,162,0,0.0
-2026,Myositis,162,0,0.0
-2026,Neonatology,162,0,0.0
-2026,Nephrology,162,0,0.0
-2026,Neurodevelopment,162,0,0.0
-2026,Neurology,162,3,1.8518518518518519
-2026,Oncology,162,14,8.641975308641975
-2026,One Health,162,0,0.0
-2026,Ophthalmology,162,6,3.7037037037037037
-2026,Opioid Use,162,0,0.0
+2026,Medical Domain A,162,14,8.641975308641975
+2026,Medical Domain B,162,2,1.2345679012345678
+2026,Medical Domain C,162,0,0.0
+2026,Medical Domain D,162,1,0.6172839506172839
+2026,Medical Domain E,162,1,0.6172839506172839
+2026,Medical Domain F,162,16,9.876543209876543
+2026,Medical Domain G,162,0,0.0
+2026,Medical Domain H,162,6,3.7037037037037037
+2026,Medical Domain I,162,0,0.0
+2026,Medical Domain J,162,2,1.2345679012345678
+2026,Medical Domain N,162,3,1.8518518518518519
+2026,Medical Domain O,162,3,1.8518518518518519
+2026,Medical Domain P,162,0,0.0
+2026,Medical Domain Q,162,0,0.0
+2026,Medical Domain R,162,0,0.0
+2026,Medical Domain S,162,5,3.0864197530864197
+2026,Medical Domain T,162,7,4.320987654320987
+2026,Medical Domain U,162,0,0.0
+2026,Medical Domain V,162,0,0.0
+2026,Medical Domain X,162,0,0.0
 2026,Opioid Use Disorder,162,0,0.0
-2026,Oral Health,162,1,0.6172839506172839
-2026,Orthopedics,162,0,0.0
-2026,Osteoporosis,162,0,0.0
-2026,Pathology,162,0,0.0
-2026,Patient-Reported Outcomes,162,0,0.0
-2026,Pediatrics,162,3,1.8518518518518519
-2026,Perinatal Medicine,162,0,0.0
-2026,Pharmacoepidemiology,162,16,9.876543209876543
-2026,Precision Medicine,162,0,0.0
-2026,Pregnancy,162,0,0.0
-2026,Psychiatry,162,0,0.0
-2026,Pulmonary Hypertension,162,0,0.0
-2026,Pulmonology,162,1,0.6172839506172839
-2026,Rare Diseases,162,2,1.2345679012345678
-2026,Rare Events,162,0,0.0
-2026,Real-World Evidence,162,0,0.0
-2026,Reproductive Health,162,0,0.0
-2026,Research Ethics,162,0,0.0
-2026,Respiratory Diseases,162,0,0.0
-2026,Rheumatology,162,0,0.0
-2026,Sexual and Gender Minorities,162,0,0.0
-2026,Social Determinants of Health,162,0,0.0
-2026,Stroke,162,1,0.6172839506172839
-2026,Synthetic Health Data,162,0,0.0
-2026,Systemic Lupus Erythematosus,162,0,0.0
-2026,Telehealth,162,0,0.0
-2026,Toxicology,162,0,0.0
-2026,Transgender and Gender-Diverse Health,162,0,0.0
-2026,Translational Research,162,0,0.0
-2026,Transplant Medicine,162,0,0.0
-2026,Transplantation,162,0,0.0
-2026,Trauma,162,1,0.6172839506172839
-2026,Trauma Care,162,0,0.0
-2026,Treatment Patterns,162,0,0.0
-2026,Urologic Oncology,162,0,0.0
-2026,Urology,162,1,0.6172839506172839
-2026,Vascular Medicine,162,0,0.0
-2026,Veterinary Medicine,162,0,0.0
-2026,Women's Health,162,2,1.2345679012345678
-2026,Women’s Health,162,1,0.6172839506172839

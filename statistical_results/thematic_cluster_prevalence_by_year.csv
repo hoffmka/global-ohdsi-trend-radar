@@ -1,65 +1,65 @@
 year,label,n_contributions,n_with_label,percentage
-2023,"AI, LLMs & Natural Language Processing",161,8,4.968944099378882
-2023,Clinical Applications & Real-World Evidence,161,43,26.70807453416149
-2023,Community & Network Development,161,9,5.590062111801243
-2023,Data Infrastructure & Scalability,161,1,0.6211180124223602
-2023,Data Quality & Characterization,161,6,3.7267080745341614
-2023,Data Standardization & OMOP CDM,161,46,28.571428571428573
-2023,Federated Analytics & Network Studies,161,3,1.8633540372670807
-2023,Governance & Regulatory Requirements,161,11,6.832298136645963
-2023,Interoperability & Data Integration,161,10,6.211180124223603
-2023,Phenotyping & Cohort Definition,161,12,7.453416149068323
-2023,Prediction & Machine Learning,161,6,3.7267080745341614
-2023,Privacy & Secure Computing,161,2,1.2422360248447204
-2023,"Software, Tools & Research Workflows",161,25,15.527950310559007
-2023,Specialized & Multimodal Data,161,21,13.043478260869565
-2023,Statistical Methods & Causal Inference,161,21,13.043478260869565
-2023,Terminologies & Semantic Mapping,161,9,5.590062111801243
-2024,"AI, LLMs & Natural Language Processing",136,16,11.764705882352942
-2024,Clinical Applications & Real-World Evidence,136,29,21.323529411764707
-2024,Community & Network Development,136,4,2.9411764705882355
-2024,Data Infrastructure & Scalability,136,0,0.0
-2024,Data Quality & Characterization,136,7,5.147058823529412
-2024,Data Standardization & OMOP CDM,136,63,46.3235294117647
-2024,Federated Analytics & Network Studies,136,7,5.147058823529412
-2024,Governance & Regulatory Requirements,136,4,2.9411764705882355
-2024,Interoperability & Data Integration,136,23,16.91176470588235
-2024,Phenotyping & Cohort Definition,136,15,11.029411764705882
-2024,Prediction & Machine Learning,136,6,4.411764705882353
-2024,Privacy & Secure Computing,136,1,0.7352941176470589
-2024,"Software, Tools & Research Workflows",136,15,11.029411764705882
-2024,Specialized & Multimodal Data,136,13,9.558823529411764
-2024,Statistical Methods & Causal Inference,136,14,10.294117647058824
-2024,Terminologies & Semantic Mapping,136,20,14.705882352941176
-2025,"AI, LLMs & Natural Language Processing",142,24,16.901408450704224
-2025,Clinical Applications & Real-World Evidence,142,31,21.830985915492956
-2025,Community & Network Development,142,12,8.450704225352112
-2025,Data Infrastructure & Scalability,142,7,4.929577464788732
-2025,Data Quality & Characterization,142,11,7.746478873239437
-2025,Data Standardization & OMOP CDM,142,68,47.88732394366197
-2025,Federated Analytics & Network Studies,142,9,6.338028169014085
-2025,Governance & Regulatory Requirements,142,10,7.042253521126761
-2025,Interoperability & Data Integration,142,12,8.450704225352112
-2025,Phenotyping & Cohort Definition,142,6,4.225352112676056
-2025,Prediction & Machine Learning,142,5,3.5211267605633805
-2025,Privacy & Secure Computing,142,0,0.0
-2025,"Software, Tools & Research Workflows",142,17,11.971830985915492
-2025,Specialized & Multimodal Data,142,15,10.56338028169014
-2025,Statistical Methods & Causal Inference,142,16,11.267605633802816
-2025,Terminologies & Semantic Mapping,142,13,9.154929577464788
-2026,"AI, LLMs & Natural Language Processing",162,43,26.54320987654321
-2026,Clinical Applications & Real-World Evidence,162,46,28.395061728395063
-2026,Community & Network Development,162,7,4.320987654320987
-2026,Data Infrastructure & Scalability,162,1,0.6172839506172839
-2026,Data Quality & Characterization,162,11,6.790123456790123
-2026,Data Standardization & OMOP CDM,162,73,45.06172839506173
-2026,Federated Analytics & Network Studies,162,15,9.25925925925926
-2026,Governance & Regulatory Requirements,162,9,5.555555555555555
-2026,Interoperability & Data Integration,162,13,8.024691358024691
-2026,Phenotyping & Cohort Definition,162,24,14.814814814814815
-2026,Prediction & Machine Learning,162,6,3.7037037037037037
-2026,Privacy & Secure Computing,162,1,0.6172839506172839
-2026,"Software, Tools & Research Workflows",162,33,20.37037037037037
-2026,Specialized & Multimodal Data,162,16,9.876543209876543
-2026,Statistical Methods & Causal Inference,162,5,3.0864197530864197
-2026,Terminologies & Semantic Mapping,162,29,17.901234567901234
+2023,Thematic Cluster A,161,46,28.571428571428573
+2023,Thematic Cluster C,161,1,0.6211180124223602
+2023,Thematic Cluster D,161,10,6.211180124223603
+2023,Thematic Cluster E,161,9,5.590062111801243
+2023,Thematic Cluster F,161,6,3.7267080745341614
+2023,Thematic Cluster G,161,6,3.7267080745341614
+2023,Thematic Cluster H,161,12,7.453416149068323
+2023,Thematic Cluster I,161,21,13.043478260869565
+2023,Thematic Cluster J,161,8,4.968944099378882
+2023,Thematic Cluster K,161,25,15.527950310559007
+2023,Thematic Cluster L,161,3,1.8633540372670807
+2023,Thematic Cluster M,161,43,26.70807453416149
+2023,Thematic Cluster N,161,9,5.590062111801243
+2023,Thematic Cluster O,161,11,6.832298136645963
+2023,Thematic Cluster P,161,2,1.2422360248447204
+2023,Thematic Cluster X,161,21,13.043478260869565
+2024,Thematic Cluster A,136,63,46.3235294117647
+2024,Thematic Cluster C,136,0,0.0
+2024,Thematic Cluster D,136,23,16.91176470588235
+2024,Thematic Cluster E,136,20,14.705882352941176
+2024,Thematic Cluster F,136,6,4.411764705882353
+2024,Thematic Cluster G,136,7,5.147058823529412
+2024,Thematic Cluster H,136,15,11.029411764705882
+2024,Thematic Cluster I,136,14,10.294117647058824
+2024,Thematic Cluster J,136,16,11.764705882352942
+2024,Thematic Cluster K,136,15,11.029411764705882
+2024,Thematic Cluster L,136,7,5.147058823529412
+2024,Thematic Cluster M,136,29,21.323529411764707
+2024,Thematic Cluster N,136,4,2.9411764705882355
+2024,Thematic Cluster O,136,4,2.9411764705882355
+2024,Thematic Cluster P,136,1,0.7352941176470589
+2024,Thematic Cluster X,136,13,9.558823529411764
+2025,Thematic Cluster A,142,68,47.88732394366197
+2025,Thematic Cluster C,142,7,4.929577464788732
+2025,Thematic Cluster D,142,12,8.450704225352112
+2025,Thematic Cluster E,142,13,9.154929577464788
+2025,Thematic Cluster F,142,5,3.5211267605633805
+2025,Thematic Cluster G,142,11,7.746478873239437
+2025,Thematic Cluster H,142,6,4.225352112676056
+2025,Thematic Cluster I,142,16,11.267605633802816
+2025,Thematic Cluster J,142,24,16.901408450704224
+2025,Thematic Cluster K,142,17,11.971830985915492
+2025,Thematic Cluster L,142,9,6.338028169014085
+2025,Thematic Cluster M,142,31,21.830985915492956
+2025,Thematic Cluster N,142,12,8.450704225352112
+2025,Thematic Cluster O,142,10,7.042253521126761
+2025,Thematic Cluster P,142,0,0.0
+2025,Thematic Cluster X,142,15,10.56338028169014
+2026,Thematic Cluster A,162,73,45.06172839506173
+2026,Thematic Cluster C,162,1,0.6172839506172839
+2026,Thematic Cluster D,162,13,8.024691358024691
+2026,Thematic Cluster E,162,29,17.901234567901234
+2026,Thematic Cluster F,162,6,3.7037037037037037
+2026,Thematic Cluster G,162,11,6.790123456790123
+2026,Thematic Cluster H,162,24,14.814814814814815
+2026,Thematic Cluster I,162,5,3.0864197530864197
+2026,Thematic Cluster J,162,43,26.54320987654321
+2026,Thematic Cluster K,162,33,20.37037037037037
+2026,Thematic Cluster L,162,15,9.25925925925926
+2026,Thematic Cluster M,162,46,28.395061728395063
+2026,Thematic Cluster N,162,7,4.320987654320987
+2026,Thematic Cluster O,162,9,5.555555555555555
+2026,Thematic Cluster P,162,1,0.6172839506172839
+2026,Thematic Cluster X,162,16,9.876543209876543

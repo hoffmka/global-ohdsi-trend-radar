@@ -10,12 +10,12 @@ from statsmodels.stats.multitest import multipletests
 # Configuration
 # --------------------------------------------------
 
-INPUT_FILE = Path("ohdsi_evidence_master.xlsx")
-OUTPUT_DIR = Path("statistical_results")
+INPUT_FILE = Path("../../ohdsi_evidence_master.xlsx")
+OUTPUT_DIR = Path("../../statistical_results")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 YEAR_COL = "Year"
-THEME_COL = "Themencluster"
+THEME_COL = "ThematicCluster"
 DOMAIN_COL = "Medical Domain"
 
 MIN_DOMAIN_COUNT = 10

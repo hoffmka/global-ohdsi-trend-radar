@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 import pandas as pd
@@ -6,12 +5,12 @@ import plotly.express as px
 
 
 # ============================================================
-# 1. Einstellungen
+# 1. Settings
 # ============================================================
 
-INPUT_FILE = Path("ohdsi_evidence_master.xlsx")
+INPUT_FILE = Path("../../ohdsi_evidence_master.xlsx")
 SHEET_NAME = "ohdsi_evidence_master"
-OUTPUT_DIR = Path("plots")
+OUTPUT_DIR = Path("../../statistical_results/plots")
 
 TOP_N_THEMES = 25
 TOP_N_MEDICAL_DOMAINS = 25
@@ -20,7 +19,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ============================================================
-# 2. Daten laden und vorbereiten
+# 2. Load and prepare data
 # ============================================================
 
 df = pd.read_excel(INPUT_FILE, sheet_name=SHEET_NAME)
@@ -28,7 +27,7 @@ df = pd.read_excel(INPUT_FILE, sheet_name=SHEET_NAME)
 required_columns = [
     "Year",
     "Category",
-    "Themencluster",
+    "ThematicCluster",
     "Medical Domain",
 ]
 
@@ -39,11 +38,11 @@ missing_columns = [
 
 if missing_columns:
     raise ValueError(
-        f"Fehlende Spalten: {missing_columns}\n"
-        f"Vorhandene Spalten: {list(df.columns)}"
+        f"Missing columns: {missing_columns}\n"
+        f"Available columns: {list(df.columns)}"
     )
 
-# Jahre numerisch interpretieren und auf den Analysezeitraum begrenzen
+# Convert years to numeric values and restrict the data to the analysis period
 df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
 df = df[df["Year"].isin([2023, 2024, 2025, 2026])].copy()
 df["Year"] = df["Year"].astype(int)
@@ -51,22 +50,22 @@ df["Year"] = df["Year"].astype(int)
 years = [2023, 2024, 2025, 2026]
 year_labels = [str(y) for y in years]
 
-# Fehlende Kategorien für die bisherigen Auswertungen kennzeichnen
-for col in ["Category", "Themencluster"]:
+# Label missing categories for the analyses below
+for col in ["Category", "ThematicCluster"]:
     df[col] = df[col].fillna("Not specified").astype(str).str.strip()
     df.loc[df[col] == "", col] = "Not specified"
 
-# Einheitliche Jahresbeschriftung
+# Create consistent year labels
 df["YearLabel"] = df["Year"].astype(str)
 
 
 # ============================================================
-# Hilfsfunktion: Diagramme exportieren
+# Helper function: export charts
 # ============================================================
 
 def export_figure(fig, filename):
-    """Speichert ein Plotly-Diagramm als HTML und, wenn möglich,
-    zusätzlich als PNG, SVG und PDF."""
+    """Save a Plotly figure as HTML and, if possible,
+    additionally as PNG, SVG, and PDF."""
     fig.write_html(OUTPUT_DIR / f"{filename}.html")
 
     try:
@@ -75,13 +74,13 @@ def export_figure(fig, filename):
         fig.write_image(OUTPUT_DIR / f"{filename}.pdf")
     except Exception as exc:
         print(
-            f"Statischer Export für {filename} nicht möglich. "
-            f"HTML wurde gespeichert. Details: {exc}"
+            f"Static export for {filename} was not possible. "
+            f"HTML was saved. Details: {exc}"
         )
 
 
 # ============================================================
-# 3. Diagramm 1: Anzahl der Beiträge pro Jahr
+# 3. Chart 1: Number of contributions per year
 # ============================================================
 
 contributions_per_year = (
@@ -113,11 +112,11 @@ fig1.update_traces(textposition="outside")
 fig1.update_layout(template="plotly_white")
 
 fig1.show()
-export_figure(fig1, "01_contributions_per_year")
+export_figure(fig1, "06_contributions_per_year")
 
 
 # ============================================================
-# 4. Diagramm 2: Kategorieverteilung pro Jahr
+# 4. Chart 2: Category distribution by year
 # ============================================================
 
 category_counts = (
@@ -161,16 +160,15 @@ fig2.update_layout(
 )
 
 fig2.show()
-export_figure(fig2, "02_category_distribution")
-
+export_figure(fig2, "07_category_distribution")
 
 
 # ============================================================
-# 5. Diagramm 3: Thematic Cluster Heatmap by Year
+# 5. Chart 3: Thematic cluster heatmap by year
 # ============================================================
 
-# Ein Beitrag kann mehrere Themencluster enthalten,
-# getrennt durch Semikolon. Diese werden einzeln gezählt.
+# A contribution can contain multiple thematic clusters,
+# separated by semicolons. Each cluster is counted separately.
 theme_source = df[["Year", "YearLabel", "Themencluster"]].copy()
 
 theme_source["Themencluster"] = (
@@ -189,7 +187,7 @@ theme_long["Themencluster"] = (
     .str.strip()
 )
 
-# Leere Einträge und "Not specified" ausschließen
+# Exclude empty entries and "Not specified"
 theme_long = theme_long[
     (theme_long["Themencluster"] != "")
     & (
@@ -200,10 +198,10 @@ theme_long = theme_long[
 
 if theme_long.empty:
     raise ValueError(
-        "Keine Themencluster-Einträge nach der Bereinigung gefunden."
+        "No thematic cluster entries found after cleaning."
     )
 
-# Häufigkeit der einzelnen Themencluster pro Jahr
+# Count the occurrences of each thematic cluster by year
 theme_counts = (
     theme_long.groupby(["YearLabel", "Themencluster"])
     .size()
@@ -216,7 +214,7 @@ theme_counts.to_csv(
     encoding="utf-8-sig",
 )
 
-# Gesamtzahl der Nennungen je Themencluster
+# Calculate the total number of mentions for each thematic cluster
 theme_total_counts = (
     theme_long["Themencluster"]
     .value_counts()
@@ -230,14 +228,14 @@ theme_total_counts.to_csv(
     encoding="utf-8-sig",
 )
 
-# Top-Themencluster über alle Jahre bestimmen
+# Identify the most frequent thematic clusters across all years
 top_theme_names = (
     theme_total_counts
     .head(TOP_N_THEMES)["Themencluster"]
     .tolist()
 )
 
-# Matrix: Themencluster in Zeilen, Jahre in Spalten
+# Matrix: thematic clusters in rows and years in columns
 theme_year_matrix = (
     theme_counts[
         theme_counts["Themencluster"].isin(top_theme_names)
@@ -254,10 +252,9 @@ theme_year_matrix = (
     .fillna(0)
 )
 
-# Anteil der Beiträge des jeweiligen Jahres,
-# die das jeweilige Themencluster nennen.
-# Mehrfachzuordnungen sind möglich; die Anteile summieren
-# sich deshalb nicht notwendigerweise auf 100 %.
+# Share of contributions in each year that mention the respective thematic cluster.
+# Multiple assignments are possible; therefore, the percentages do not
+# necessarily add up to 100%.
 year_totals = (
     df.groupby("YearLabel")
     .size()
@@ -283,7 +280,7 @@ theme_year_percentages.to_csv(
     encoding="utf-8-sig",
 )
 
-# Heatmap
+# Create heatmap
 fig3 = px.imshow(
     theme_year_percentages,
     x=year_labels,
@@ -305,16 +302,15 @@ fig3.update_layout(
 )
 
 fig3.show()
-export_figure(fig3, "03_themencluster_by_year")
-
+export_figure(fig3, "08_themencluster_by_year")
 
 
 # ============================================================
-# 6. Medical Domain: Einträge aufteilen und bereinigen
+# 6. Medical domains: split and clean entries
 # ============================================================
 
-# Ein Beitrag kann mehrere Medical Domains enthalten,
-# getrennt durch Semikolon. Jede Domäne wird einzeln gezählt.
+# A contribution can contain multiple medical domains,
+# separated by semicolons. Each domain is counted separately.
 medical_source = df[["Year", "YearLabel", "Medical Domain"]].copy()
 
 medical_source["Medical Domain"] = (
@@ -337,7 +333,7 @@ medical_long["Medical Domain"] = (
     .str.strip()
 )
 
-# Leere Einträge und "Not specified" ausschließen
+# Exclude empty entries and "Not specified"
 medical_long = medical_long[
     (medical_long["Medical Domain"] != "")
     & (
@@ -348,18 +344,17 @@ medical_long = medical_long[
 
 if medical_long.empty:
     raise ValueError(
-        "Keine Medical-Domain-Einträge nach der Bereinigung gefunden."
+        "No medical domain entries found after cleaning."
     )
 
-# Optional: doppelte Nennung derselben Domäne innerhalb eines
-# Beitrags und Jahres nur einmal zählen. Da die Excel-Datei keine
-# eindeutige Beitrags-ID voraussetzt, bleibt die Zählung hier
-# auf den vorhandenen Zeilen basiert.
-
+# Optional: Count duplicate mentions of the same domain within a
+# contribution and year only once. Since the Excel file does not require
+# a unique contribution ID, counting here is based on the
+# available rows.
 
 
 # ============================================================
-# 7. Diagramm 4: Entwicklung der Medical Domains pro Jahr
+# 7. Chart 4: Development of medical domains by year
 # ============================================================
 
 medical_domain_counts = (
@@ -392,7 +387,7 @@ medical_domain_year_counts.to_csv(
     encoding="utf-8-sig",
 )
 
-# Top-Domänen nach Gesamtzahl der Nennungen
+# Select the top domains by total number of mentions
 top_domain_names = top_medical_domains[
     "Medical Domain"
 ].tolist()
@@ -415,9 +410,9 @@ domain_year_matrix = (
     .fillna(0)
 )
 
-# Anteil der Beiträge eines Jahres, die die jeweilige Domäne nennen.
-# Mehrfachzuordnungen sind möglich; die Anteile summieren sich daher
-# über die Domänen hinweg nicht notwendigerweise auf 100 %.
+# Share of contributions in a given year that mention the respective domain.
+# Multiple assignments are possible; therefore, the percentages across
+# domains do not necessarily add up to 100%.
 year_totals = (
     df.groupby("YearLabel")
     .size()
@@ -462,22 +457,22 @@ fig5.update_layout(
 )
 
 fig5.show()
-export_figure(fig5, "04_medical_domains_by_year")
+export_figure(fig5, "09_medical_domains_by_year")
 
 
 # ============================================================
-# 8. Abschluss
+# 8. Summary
 # ============================================================
 
-print("\nAuswertung abgeschlossen.")
-print(f"Analysierte Beiträge: {len(df)}")
-print(f"Jahre: {', '.join(year_labels)}")
+print("\nAnalysis completed.")
+print(f"Number of contributions analyzed: {len(df)}")
+print(f"Years: {', '.join(year_labels)}")
 print(
-    "Medical-Domain-Nennungen nach Ausschluss von "
+    "Medical domain mentions after excluding "
     f"'Not specified': {len(medical_long)}"
 )
-print(f"Ergebnisse gespeichert in: {OUTPUT_DIR.resolve()}")
+print(f"Results saved to: {OUTPUT_DIR.resolve()}")
 print(
-    "\nHinweis: Für PNG-, SVG- und PDF-Exporte wird gegebenenfalls "
-    "Kaleido benötigt. Installation: pip install kaleido"
+    "\nNote: Kaleido may be required for PNG, SVG, and PDF exports. "
+    "Install it using: pip install kaleido"
 )

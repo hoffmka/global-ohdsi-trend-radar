@@ -1,163 +1,61 @@
 # OHDSI Global Symposium Trend Radar (2023–2026)
 
-## Overview
+This repository accompanies the manuscript submitted to the *EFMI Medical Informatics Europe (MIE) Conference 2027*:
 
-This repository presents a **Trend Radar of the OHDSI Global Symposium and Collaborator Showcase contributions from 2023 to 2026**. It explores how research topics and medical domains represented in the OHDSI community have evolved over time.
+**A Trend Radar for the OHDSI Community: A Methodological Framework**
 
-The Trend Radar combines descriptive visualizations with statistical trend analyses to identify recurring themes, emerging areas of interest, and changes in the distribution of contributions across symposium years.
+The paper presents a methodological framework for systematically exploring thematic developments in the OHDSI community based on contributions to the Global Symposium Collaborator Showcase.
 
-The analysis is intended to provide an exploratory overview of community activity. It does not measure the quality or impact of individual contributions, nor does it represent the entire OHDSI community beyond the contributions included in the dataset.
+The dataset comprises **601 contributions from 2023 to 2026**. The framework combines AI-assisted thematic clustering and classification with expert review, descriptive analysis, statistical trend analysis, and visualization.
 
-## Dataset
+## Data sources
 
-The evidence list was compiled from publicly available OHDSI materials, including contributions to the OHDSI Global Symposium and the Collaborator Showcase. 
+The contribution list was compiled from publicly available OHDSI programmes:
 
-https://www.ohdsi.org/2023-collaborator-showcase/
-https://www.ohdsi.org/2024-collaborator-showcase/
-https://www.ohdsi.org/2025-global-collaborator-showcase/
-https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vQMCFQXYHkPrbVrLojEo5NRQnHAUz6C9sfQ_DtvdKjXvJJW4l-A-N7yI3Y6e7WyWeB-KUEpnWl61-a6/pubhtml?pli=1&urp=gmail_link
+- [2023 OHDSI Collaborator Showcase](https://www.ohdsi.org/2023-collaborator-showcase/)
+- [2024 OHDSI Collaborator Showcase](https://www.ohdsi.org/2024-collaborator-showcase/)
+- [2025 OHDSI Global Collaborator Showcase](https://www.ohdsi.org/2025-global-collaborator-showcase/)
+- [2026 OHDSI Global Symposium Programme](https://docs.google.com/spreadsheets/d/e/2PACX-1vQMCFQXYHkPrbVrLojEo5NRQnHAUz6C9sfQ_DtvdKjXvJJW4l-A-N7yI3Y6e7WyWeB-KUEpnWl61-a6/pubhtml)
 
-Contributions from 2023 to 2026 were consolidated into the master dataset, `ohdsi_evidence_master.xlsx`, which served as the basis for the subsequent analysis.
+| Year | Contributions |
+|---|---:|
+| 2023 | 161 |
+| 2024 | 136 |
+| 2025 | 142 |
+| 2026 | 162 |
+| **Total** | **601** |
 
-The dataset contains 601 contributions:
-| Year | Number of Contribution |
-| :--- |  ---: |
-| 2023 |  161 |
-| 2024 |  136 |
-| 2025 |  142 |
-| 2026 |  162 |
-| **Total** |  **601** |
+## Analysis and visualizations
 
-Each contribution is described using metadata including its year, original category, contribution number, title, thematic cluster, and medical domain.
+The repository contains the evidence list, Python scripts for data processing and analysis, and example visualizations illustrating the proposed framework.
 
-The thematic and medical-domain assignments were derived from contribution titles. A second researcher independently reviewed the assignments, and differences were discussed until consensus was reached.
+**Note:** This methodological release uses placeholder labels for thematic clusters and medical domains. The figures below demonstrate the visualization approach only; they do not present the actual classifications.
 
-## Analytical Approach
+### Illustrative thematic trends
 
-### Descriptive Analysis
+![Illustrative forest plot of thematic-cluster trends](statistical_results/plots/02_forest_plot_themes.png)
 
-The descriptive analysis examines the distribution of contributions across symposium years, thematic clusters, and medical domains. It provides an overview of the topics represented in the dataset and how their prevalence changes over time.
+![Illustrative annual prevalence of thematic clusters](statistical_results/plots/01_significant_theme_trends.png)
 
-### Statistical Trend Analysis
+### Illustrative medical-domain trends
 
-To assess whether the representation of individual themes and medical domains changed over time, separate logistic regression models were fitted for each label.
+![Illustrative forest plot of medical-domain trends](statistical_results/plots/03_forest_plot_medical_domains.png)
 
-**Outcome:** Whether a contribution was assigned to a particular theme or medical domain.
+![Illustrative thematic-cluster prevalence by year](statistical_results/plots/04_heatmap_themes.png)
 
-**Predictor:** Calendar year, modelled as a continuous variable from 2023 to 2026.
-
-**Effect measure:** Odds ratio (OR) per one-year increase, with a Wald 95% confidence interval.
-
-**Multiple testing:** Benjamini–Hochberg false discovery rate (FDR) correction, applied separately to thematic clusters and medical domains.
-
-**Medical domains:** Statistical trend models were restricted to domains assigned to at least 10 contributions overall.
-
-An odds ratio above 1 indicates increasing odds of a label being assigned in later years; an odds ratio below 1 indicates decreasing odds. Statistical significance was assessed using FDR-adjusted p-values.
-
-Annual prevalence percentages use the total number of contributions in each year as the denominator. As contributions may be assigned to multiple themes or medical domains, percentages across labels do not necessarily sum to 100%.
-
-## Key Findings
-
-Three thematic clusters showed statistically significant upward trends after FDR correction:
-
-**AI, LLMs & Natural Language Processing:** OR per year = 1.70 (95% CI 1.36–2.12; FDR-adjusted p = 3.54 × 10⁻⁵). Prevalence increased from 5.0% in 2023 to 23.5% in 2026.
-
-**Federated Analytics & Network Studies:** OR per year = 1.60 (95% CI 1.15–2.23; FDR-adjusted p = 0.0282). Prevalence increased from 1.9% in 2023 to 9.3% in 2026.
-
-**Data Standardization & OMOP CDM:** OR per year = 1.24 (95% CI 1.07–1.43; FDR-adjusted p = 0.0258). Prevalence increased from 28.6% in 2023 to 45.1% in 2026, after reaching approximately 47.9% in 2025.
-
-No medical-domain trend reached statistical significance after FDR correction among domains with at least 10 assignments.
-
-These findings describe changes in the **relative representation of topics among the analysed contributions**. They should not be interpreted as evidence of causality or as definitive measures of broader community-wide research activity.
-
-## Statistical Visualizations
-
-The statistical analysis produces five main Plotly visualizations. Interactive HTML versions are provided, with static PNG, PDF, and SVG exports attempted where the required export dependencies are available.
-
-### 1. Forest Plot of Thematic Trends
-
-A forest plot showing the estimated odds ratios and 95% confidence intervals for thematic clusters. It includes both statistically significant and non-significant trends, allowing readers to compare the estimated direction and magnitude of changes across themes.
-
-The vertical reference at OR = 1 represents no temporal association in the model.
-
-**Figure 1. Temporal Trends by thematic cluster**
-
-![Temporal Trends by thematic cluster](statistical_results/plots/02_forest_plot_themes.png)
-
-### 2. Significant Thematic Trends
-
-A line chart showing annual prevalence for thematic clusters with statistically significant upward trends after FDR correction. It helps compare the timing and magnitude of changes in the representation of these themes between 2023 and 2026.
-
-**Figure 2. Temporal Trends in FDR-significant thematic cluster**
-
-![Temporal Trends in FDR-significant thematic cluster](statistical_results/plots/01_significant_theme_trends.png)
-
-### 3. Forest Plot of Medical-Domain Trends
-
-A forest plot of odds ratios and 95% confidence intervals for medical domains with at least 10 assignments overall. It provides a comparative overview of estimated temporal trends across medical areas. None of these trends remained statistically significant after FDR correction.
-
-**Figure 3. Temporal Trends by medcial-domain cluster**
-![Temporal Trends by thematic cluster](statistical_results/plots/03_forest_plot_medical_domains.png)
-
-### 4. Heatmap of Thematic Prevalence
-
-A heatmap showing annual prevalence percentages for the represented thematic clusters. It supports rapid visual comparison of which themes are consistently represented, increase, decrease, or fluctuate across the four symposium years.
-
-**Figure 4. Thematic cluster prevalence by year**
-
-![Thematic cluster prevalence by year](statistical_results/plots/04_heatmap_themes.png)
-
-
-### 5. Heatmap of Medical-Domain Prevalence
-
-A heatmap showing annual prevalence percentages for the 25 most frequently represented medical domains. It illustrates the distribution and temporal variation of the medical areas represented in the contributions.
-
-**Figure 5. Medical domain prevalence by year**
-
-![Medical domain prevalence by year](statistical_results/plots/05_heatmap_medical_domains.png)
-
-The exact file extensions depend on the generated outputs. The interactive versions use HTML; static exports are generated where supported.
+![Illustrative medical-domain prevalence by year](statistical_results/plots/05_heatmap_medical_domains.png)
 
 ## Repository contents
 
-The repository brings together the contribution-level dataset, analysis scripts, statistical result tables, and visualizations.
+- `ohdsi_evidence_master.xlsx` – contribution metadata and example data
+- `scripts/` – Python scripts for data collection, descriptive statistics, trend analysis, and visualization
+- `statistical_results/` – example statistical outputs and plots
 
-Key statistical result tables include:
+## Related publication
 
-- `thematic_cluster_trends.csv` — Regression estimates and statistical results for thematic clusters.
+*A Trend Radar for the OHDSI Community: A Methodological Framework.*  
+Submitted to *Methods of Information in Medicine*. DOI to be added upon publication.
 
-- `medical_domain_trends_min10.csv` — Regression estimates for medical domains meeting the minimum assignment threshold.
+## Funding
 
-- `thematic_cluster_prevalence_by_year.csv` — Annual prevalence of thematic clusters.
-
-- `medical_domain_prevalence_by_year.csv` — Annual prevalence of medical domains.
-
-Statistical plots are stored in `statistical_results/plots/`. The original contribution data are maintained in `ohdsi_evidence_master.xlsx`.
-
-## Reproducibility
-
-Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-On Windows, activate it with:
-
-```powershell
-.venv\Scripts\activate
-```
-
-Install the required dependencies from requirements.txt:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the analysis:
-
-```bash
-python stats.py
-python stats-plot.py
-```
+NUM^OHDSI Connect, funded by the German Federal Ministry of Research, Technology and Space (BMFTR), grant number **01DM26001**.

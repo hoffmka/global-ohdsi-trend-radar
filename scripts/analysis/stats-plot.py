@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 # Configuration
 # ============================================================
 
-RESULTS_DIR = Path("statistical_results")
+RESULTS_DIR = Path("../../statistical_results")
 PLOT_DIR = RESULTS_DIR / "plots"
 PLOT_DIR.mkdir(parents=True, exist_ok=True)
 
