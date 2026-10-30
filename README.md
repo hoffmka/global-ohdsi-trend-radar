@@ -54,7 +54,7 @@ The repository contains the evidence list, Python scripts for data processing an
 ## Related publication
 
 *A Trend Radar for the OHDSI Community: A Methodological Framework.*  
-Submitted to *Methods of Information in Medicine*. DOI to be added upon publication.
+Submitted to the *EFMI Medical Informatics Europe (MIE) Conference 2027*.
 
 ## Funding
 
